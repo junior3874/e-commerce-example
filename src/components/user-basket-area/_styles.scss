@@ -1,0 +1,14 @@
+.user-area{
+    background-color: white;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+    &.loading{
+        border: none;
+        opacity: 0.3;
+        animation: skeleton-loading 1s linear infinite alternate;
+    }
+}
+
